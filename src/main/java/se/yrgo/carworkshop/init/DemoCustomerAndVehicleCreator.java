@@ -24,12 +24,12 @@ public class DemoCustomerAndVehicleCreator implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        if (customerRepository.findByName("Lars Andersson") == null
-                && customerRepository.findByName("Eva Ohlsson") == null
-                && customerRepository.findByName("Gustav Svensson") == null) {
-        Customer lars = new Customer("Lars Andersson", "0732425235");
-        Customer eva = new Customer("Eva Ohlsson", "0766425235");
-        Customer gustav = new Customer("Gustav Svensson", "0777425235");
+        if (customerRepository.findByName("Lars") == null
+                && customerRepository.findByName("Eva") == null
+                && customerRepository.findByName("Gustav") == null) {
+        Customer lars = new Customer("Lars", "0732425235");
+        Customer eva = new Customer("Eva", "0766425235");
+        Customer gustav = new Customer("Gustav", "0777425235");
 
         Vehicle saab = new Vehicle("WNL108", "Saab", "95", 1999);
         Vehicle volvo1 = new Vehicle("SSL508", "Volvo", "S80", 2010);
