@@ -53,7 +53,15 @@ If you added these you should be able to see them with the previous GET-operatio
 
 If you look at the customers or the specific customer, the car should be added to their vehicle-list, and the vehicle should have the customerId attached to it.
 
+You can also go to:
+  http://localhost:8080/h2-console
 
+  Driver class: org.h2.Driver
+  JDBC URL: jdbc:h2:file:./Database
+  User Name: sa
+  Password:
+
+After you've tried the options and see the result in the h2-database.
 
 
 
