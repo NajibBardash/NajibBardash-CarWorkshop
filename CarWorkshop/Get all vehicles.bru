@@ -1,0 +1,15 @@
+meta {
+  name: Get all vehicles
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:8080/vehicles
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
