@@ -2,8 +2,6 @@
 
 NAME="car-workshop"
 
-echo "Bulding ${NAME}..."
-mvn package
 echo "running..."
 mvn spring-boot:run
 echo "Done!"
